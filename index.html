@@ -3,12 +3,11 @@
   <head>
     <title>Happy Birthday Pramod</title>
     <meta name="description" content="Happy Birthday Pramod">
-    <meta name="viewport" content="width=divice-width, initial-scale=1">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="contact-form.css">
-    <link rel="stylesheet" href="css/small.css" media="(max-width: 480px)">
+    <link rel="stylesheet" href="css/small.css" media="(max-width: 630px)">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,700|Lobster' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=divice-width, initial-scale=1">
   </head>
   <body>
     <div class="container">
@@ -34,7 +33,7 @@
         <figure><img src="images/5.jpg" alt="Pramod"></figure>
       </div>
       <div class="contact">
-        <h2>Wednesday, February 2nd !</h2>
+        <h2>February 2nd, Every Year !</h2>
         <div class="unicorn">
           <img src="images/2.jpg" alt="Pramod">
         </div>
@@ -49,33 +48,20 @@
           Love you infinity......❤️
         </p>
       </div>
-      <div class="fcf-body">
-        <div id="fcf-form">
-          <h3 class="fcf-h3">Send Some Exiting Wishes to Pramod!!</h3>
-          <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
-            <div class="fcf-form-group">
-              <label for="Name" class="fcf-label">Your Name</label>
-              <div class="fcf-input-group">
-                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
-              </div>
-            </div>
-            <div class="fcf-form-group">
-              <label for="Email" class="fcf-label">Your Email Address</label>
-              <div class="fcf-input-group">
-                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
-              </div>
-            </div>
-            <div class="fcf-form-group">
-              <label for="Message" class="fcf-label">Your Wishes</label>
-              <div class="fcf-input-group">
-                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
-              </div>
-            </div>
-            <div class="fcf-form-group">
-              <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Wishes</button>
-            </div>
-            <?php include("contact-form-process.php");?>
-          </form>
+      <div class="contact-form">
+        <h2>Send Exciting Wishes to Pramod!</h2>
+        <form action="mailto:rohithperumandla9@gmail.com" method="post" enctype="text/plain">
+          Name :
+          <input type="text" name="name"><br><br>
+          E-mail :
+          <input type="text" name="mail"><br><br>
+          Wishes:
+          <input type="text" name="comment" size="auto"><br><br>
+          <div class="button">
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset">
+          </div>
+        </form>
       </div>
     </div>
     <footer>
