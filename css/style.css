@@ -5,6 +5,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
+  
 }
 
 * {
@@ -54,8 +55,11 @@ text-align: center;
 }
 
 .hero img{
-  width: 100%;
+ 
   border-radius: 20px 20px 0 0;
+  width: 0.3em;
+  min-width:1000px;
+  height:auto;
 }
 .container {
   width: 600px;
