@@ -15,6 +15,7 @@
 .unicorn {
   float: inherit;
   margin: auto;
+  text-align: left;
 }
 .contact{
   text-align: center;
