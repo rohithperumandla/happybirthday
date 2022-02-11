@@ -13,9 +13,8 @@
   float: inherit;
 }
 .unicorn {
-  text-align: center;
   float: inherit;
-  margin: 0px, 0px, 0px, 0px;
+  margin: auto;
 }
 .contact{
   text-align: center;
