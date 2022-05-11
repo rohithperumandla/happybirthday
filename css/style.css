@@ -59,7 +59,7 @@ text-align: center;
 }
 .container {
   width: 600px;
-  margin: 100px auto;
+  margin: 100px auto 0px auto;
 }
 .bubble {
   float: right;
@@ -102,7 +102,6 @@ footer {
   background-color: white;
   color: #e22f8f;
   padding: 25px;
-  font-style: italic;
   font-weight: bolder;
 }
 
@@ -176,13 +175,25 @@ figure img {
 }
 
 .contact-form{
-  text-align: auto;
-  padding: 50px; 
   border: 1px solid lightgray; 
-  margin: auto;
   border-radius: 10px;
-  margin: auto;
-  text-decoration: solid;
+  width: 100%;
+  height: 100%;
+}
+
+.google{
+  width: 100%;
+  height: 800px;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line{
+  background-color: lightgray;
+  margin: 0px;
 }
 
 .button{

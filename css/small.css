@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+.google{
+  height: 850px;
+}
+
 .hero img{
   border-radius: 0;
 }
