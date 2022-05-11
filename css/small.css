@@ -5,7 +5,7 @@
 }
 
 .google{
-  height: 850px;
+  height: 875px;
 }
 
 .hero img{
@@ -17,7 +17,7 @@
   float: inherit;
 }
 .unicorn {
-  float: inherit;
+  float: none;
   margin: auto;
   text-align: center;
 }
